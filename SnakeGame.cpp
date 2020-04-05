@@ -127,7 +127,7 @@ void Logic() {
 }
 
 void Pause() {
-    std::cout << "Press R to retry and X to exit" << "\n\n" << "Your score: " << score;
+    std::cout << "\nPress R to retry and X to exit" << "\n\n" << "Your score: " << score;
 }
 
 int main() {
@@ -139,7 +139,6 @@ int main() {
             Logic();
             Sleep(100);
         }
-        system("cls");
         Pause();
         while(gameOver && !stop) {
             Input();
