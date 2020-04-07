@@ -1,7 +1,6 @@
 #include <iostream>
 #include <conio.h>                  //For giving input without pressing enter.
-#include <windows.h>                //For screen clear function
-
+#include <windows.h>                //For system("cls");
 bool gameOver, stop;
 const int width = 20;
 const int height = 20;
